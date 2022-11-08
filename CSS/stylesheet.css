@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    background-color: #0F0C29;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 100%;
+    padding: 150px;
+}
+
+.introduction-nama {
+    padding: 1px;
+}
+
+.introduction-nama h1 {
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.introduction-pekerjaan {
+    padding: 1px;
+}
+
+.introduction-pekerjaan h2 {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.introduction-description {
+    padding: 1px;
+}
+
+.introduction-description p {
+    width: 450px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: #171336;
+}
+
+.logo {
+    width: 30px;
+    padding-top: 15px;
+}
+
+.header-left {
+    float: left;
+    margin-left: 40px;
+}
+
+.header-right {
+    float: right;
+    margin-right: 40px;
+}
+
+.header-right li, a {
+    display: inline;
+    color: white;
+    padding: 10px;
+}
+
+.header-right a:hover {
+    background-color: rgb(44, 58, 41);
+}
